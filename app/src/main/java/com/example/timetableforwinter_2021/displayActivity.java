@@ -32,11 +32,11 @@ public class displayActivity extends AppCompatActivity {
 
         switch(day)
         {
-            case "MONDAY":
-                t1.setText("Scheule for Monday");
+            case "Monday":
+                t1.setText("Schedule for Monday");
                 t2.setText("IT215");
                 t3.setText("Systems Software");
-                t4.setText("Prof. Jay Prakash \n Prof. Shruti Bhilare");
+                t4.setText("Prof. Jay Prakash");
                 t5.setText("EL213");
                 t6.setText("Analog Circuits");
                 t7.setText("Prof. Tapas Kumar Maiti");
@@ -46,14 +46,14 @@ public class displayActivity extends AppCompatActivity {
                 t11.setText("Lab");
                 t12.setText("2:00 PM - 4:00 PM");
                 t13.setText("CT215");
-                t14.setText("Analog Comunication ad Transmission Line Theory");
-                t15.setText("Prof. Deepak Ghodgaunkar \nProf. Sanjeev Gupta");
+                t14.setText("Analog Comunication and Transmission Line Theory");
+                t15.setText("Prof. Deepak Ghodgaunkar");
                 break;
-            case "TUESDAY":
-                t1.setText("Scheule for Tuesday");
+            case "Tuesday":
+                t1.setText("Schedule for Tuesday");
                 t2.setText("CT215");
-                t3.setText("Analog Comunication ad Transmission Line Theory");
-                t4.setText("Prof. Deepak Ghodgaunkar \nProf. Sanjeev Gupta");
+                t3.setText("Analog Comunication and Transmission Line Theory");
+                t4.setText("Prof. Deepak Ghodgaunkar");
                 t5.setText("-");
                 t6.setText("No scheduled lecture");
                 t7.setText("-");
@@ -66,14 +66,14 @@ public class displayActivity extends AppCompatActivity {
                 t14.setText("Analog Circuits");
                 t15.setText("Prof. Tapas Kumar Maiti");
                 break;
-            case "WEDNESDAY":
-                t1.setText("Scheule for Wednesday");
+            case "Wednesday":
+                t1.setText("Schedule for Wednesday");
                 t2.setText("SC209");
                 t3.setText("Enviromental Studies");
                 t4.setText("Prof. Ranendu Ghosh");
                 t5.setText("SC222");
                 t6.setText("Probability, Statistics and Information Theory");
-                t7.setText("Prof. Gagan Garg \nProf. Madhukant Sharma");
+                t7.setText("Prof. Gagan Garg");
                 t8.setText("CS201");
                 t9.setText("Introductory Computational Physics");
                 t10.setText("Prof. Arnab Ray");
@@ -81,16 +81,16 @@ public class displayActivity extends AppCompatActivity {
                 t12.setText("2:00 PM - 3:00 PM");
                 t13.setText("SC222");
                 t14.setText("Probability, Statistics and Information Theory");
-                t15.setText("Prof. Gagan Garg \nProf. Madhukant Sharma");
+                t15.setText("Prof. Gagan Garg");
                 break;
-            case "THURSDAY":
-                t1.setText("Scheule for Thursday");
+            case "Thursday":
+                t1.setText("Schedule for Thursday");
                 t2.setText("CT215");
-                t3.setText("Analog Comunication ad Transmission Line Theory");
-                t4.setText("Prof. Deepak Ghodgaunkar \nProf. Sanjeev Gupta");
+                t3.setText("Analog Comunication and Transmission Line Theory");
+                t4.setText("Prof. Deepak Ghodgaunkar");
                 t5.setText("IT215");
                 t6.setText("Systems Software");
-                t7.setText("Prof. Jay Prakash \nProf. Shruti Bhilare");
+                t7.setText("Prof. Jay Prakash");
                 t8.setText("EL213");
                 t9.setText("Analog Circuits");
                 t10.setText("Prof. Tapas Kumar Maiti");
@@ -100,8 +100,8 @@ public class displayActivity extends AppCompatActivity {
                 t14.setText("-");
                 t15.setText("-");
                 break;
-            case "FRIDAY":
-                t1.setText("Scheule for Friday");
+            case "Friday":
+                t1.setText("Schedule for Friday");
                 t2.setText("SC221");
                 t3.setText("Engineered Materials");
                 t4.setText("Prof. Anil Roy");
@@ -110,7 +110,7 @@ public class displayActivity extends AppCompatActivity {
                 t7.setText("Prof. Arnab Ray");
                 t8.setText("SC222");
                 t9.setText("Probability, Statistics and Information Theory");
-                t10.setText("Prof. Gagan Garg \nProf. Madhukant Sharma");
+                t10.setText("Prof. Gagan Garg");
                 t11.setText("Tutorial");
                 t12.setText("2:00 PM - 3:00 PM");
                 t13.setText("CS201");

@@ -4,11 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:contentDescription="@string/welcome"
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="164dp"
         android:layout_height="292dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +29,9 @@
             android:layout_height="wrap_content"
             android:onClick="display"
             android:tag="@string/monday"
-            android:text="@string/monday" />
+            android:text="@string/monday"
+            android:textStyle="bold"
+            app:backgroundTint="#FB42F8" />
 
         <Button
             android:id="@+id/button2"
@@ -29,7 +39,9 @@
             android:layout_height="wrap_content"
             android:onClick="display"
             android:tag="@string/tuesday"
-            android:text="@string/tuesday" />
+            android:text="@string/tuesday"
+            android:textStyle="bold"
+            app:backgroundTint="#FFB13B" />
 
         <Button
             android:id="@+id/button3"
@@ -37,7 +49,9 @@
             android:layout_height="wrap_content"
             android:onClick="display"
             android:tag="@string/wednesday"
-            android:text="@string/wednesday" />
+            android:text="@string/wednesday"
+            android:textStyle="bold"
+            app:backgroundTint="#5FDF64" />
 
         <Button
             android:id="@+id/button4"
@@ -45,7 +59,9 @@
             android:layout_height="wrap_content"
             android:onClick="display"
             android:tag="@string/thursday"
-            android:text="@string/thursday" />
+            android:text="@string/thursday"
+            android:textStyle="bold"
+            app:backgroundTint="#FD335C" />
 
         <Button
             android:id="@+id/button5"
@@ -53,7 +69,9 @@
             android:layout_height="wrap_content"
             android:onClick="display"
             android:tag="@string/friday"
-            android:text="@string/friday" />
+            android:text="@string/friday"
+            android:textStyle="bold"
+            app:backgroundTint="#5E74EC" />
 
         <Button
             android:id="@+id/button6"
@@ -61,8 +79,20 @@
             android:layout_height="wrap_content"
             android:onClick="display_saturday"
             android:tag="@string/saturday"
-            android:text="@string/saturday" />
+            android:text="@string/saturday"
+            android:textStyle="bold"
+            app:backgroundTint="#F8B305" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="316dp"
+        android:layout_height="169dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/welcome" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

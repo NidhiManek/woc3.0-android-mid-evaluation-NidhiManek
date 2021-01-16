@@ -10,6 +10,8 @@
         android:id="@+id/linearLayout3"
         android:layout_width="377dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="256dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,7 +22,12 @@
             android:id="@+id/textView20"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lab" />
+            android:background="#A7DEF6"
+            android:paddingLeft="4dp"
+            android:text="Lab"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,13 +38,21 @@
                 android:id="@+id/textView21"
                 android:layout_width="76dp"
                 android:layout_height="match_parent"
-                android:text="Time" />
+                android:background="#DFFF4EF6"
+                android:paddingLeft="4dp"
+                android:text="Time"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="9:00 AM - 12:00 AM" />
+                android:background="#DFFF4EF6"
+                android:gravity="center_horizontal"
+                android:text="9:00 AM - 12:00 AM"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -49,19 +64,31 @@
                 android:id="@+id/textView24"
                 android:layout_width="76dp"
                 android:layout_height="match_parent"
-                android:text="Course" />
+                android:background="#FACEF0"
+                android:paddingLeft="4dp"
+                android:text="Course"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView25"
                 android:layout_width="54dp"
                 android:layout_height="match_parent"
-                android:text="IT215" />
+                android:background="#FACEF0"
+                android:text="IT215"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
 
             <TextView
                 android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Systems Software" />
+                android:background="#FACEF0"
+                android:gravity="center_horizontal"
+                android:text="Systems Software"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -73,23 +100,38 @@
                 android:id="@+id/textView27"
                 android:layout_width="76dp"
                 android:layout_height="match_parent"
-                android:text="Instructor" />
+                android:background="#DFFF4EF6"
+                android:gravity="center_vertical"
+                android:paddingLeft="4dp"
+                android:text="Instructor"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView53"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Prof. Jay Prakash \nProf. Shruti Bhilare" />
+                android:background="#DFFF4EF6"
+                android:gravity="center_horizontal"
+                android:paddingLeft="8dp"
+                android:text="Prof. Jay Prakash"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
         </LinearLayout>
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="166dp"
-        android:layout_height="25dp"
+        android:layout_width="265dp"
+        android:layout_height="34dp"
+        android:background="#03F4E0"
+        android:gravity="center_horizontal"
         android:text="Schedule for Saturday"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,9 +140,14 @@
 
     <TextView
         android:id="@+id/textView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="321dp"
+        android:layout_height="26dp"
+        android:background="#FDBBBB"
+        android:gravity="center_horizontal"
         android:text="There are no scheduled lectures today!"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
